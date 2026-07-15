@@ -1,0 +1,4 @@
+interface:
+  display_name: "项目持续管理"
+  short_description: "创建独立拼音仓库并维护长期项目检查点与安全交接流程"
+  default_prompt: "使用 $xiangmu-chixu-guanli 创建一个独立新仓库，或接管现有长期项目并建立可持续交接。"

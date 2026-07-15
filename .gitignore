@@ -1,0 +1,30 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Codex and browser runtime state
+.codex/state/
+.codex/sessions/
+playwright/.auth/
+browser-data/
+
+# Logs, caches, and temporary files
+*.log
+logs/
+tmp/
+temp/
+.cache/
+__pycache__/
+*.py[cod]
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
